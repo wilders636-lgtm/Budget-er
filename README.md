@@ -1,61 +1,64 @@
 # 💰 Budget-er  
-A modern, lightweight personal budgeting app built with Python and Tkinter.
+A clean, modern personal budgeting app built with Python & Tkinter.  
+Track your income, expenses, categories, and visualize your spending with built-in charts.
 
-Budget-er helps you track income, expenses, spending categories, savings progress, and visualizes your financial habits with interactive charts. Designed to be simple, fast, and beginner-friendly — while still looking clean and professional.
-
----
-
-## 📸 Screenshots  
-> *(Add your screenshots into a `/screenshots` folder and update image paths)*
-
-| Dashboard | Expense Manager | Charts |
-|----------|-----------------|--------|
-| ![Dashboard](screenshots/dashboard.png) | ![Expenses](screenshots/expenses.png) | ![Charts](screenshots/charts.png) |
+Budget-er is lightweight, fast, and designed for everyday users who want a simple money manager without subscriptions or cloud accounts.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-### **Core**
-- Add, edit, and delete expenses  
-- Category manager with collapsible panel  
-- Automatic monthly spending totals  
-- Weekly allowance calculator  
+### ✅ Dashboard Overview  
+- Enter income, savings goals, and available cash  
+- Automatic remaining balance calculation  
+- Weekly allowance estimator  
 - Overspending warnings  
-- Red negative-cash alerts  
-- CSV import/export  
-- Persistent data storage (SQLite)
+- Light/Dark theme toggle
 
-### **UI / UX**
-- Clean, modern layout  
-- Dark & light theme toggle  
-- Header with app branding  
-- Scrollable expense window  
-- Consistent styling across all windows
+### ✅ Expense Manager  
+- Add expenses with category selection  
+- Scrollable, clean UI  
+- Edit & delete entries  
+- Automatic totals and summaries  
+- CSV import/export support  
+- Category manager (add/delete categories)
 
-### **Charts**
-- Pie chart of expense distribution  
-- Bar chart of total spending by category  
-- Auto-updates after new expenses are added  
-- Dark-theme compatible
+### 📊 Built-In Charts  
+- Pie chart of spending distribution  
+- Bar chart comparing category totals  
+- Updates instantly as you add expenses
 
----
+### 🗂️ Category Manager  
+- Create your own categories (e.g., Rent, Food, Internet)  
+- Delete unused categories  
+- Automatically updates dropdown menus  
 
-## 🛠 Technologies Used
-
-| Component | Tech |
-|----------|------|
-| GUI | Tkinter |
-| Charts | Matplotlib |
-| Database | SQLite3 |
-| Language | Python 3 |
-| Packaging (optional) | PyInstaller |
+### 🖥️ Installer-Ready  
+- Works as a standalone Python app  
+- Fully compatible with PyInstaller for EXE builds
 
 ---
 
-## 📦 Installation
+## 📸 Screenshots
 
-### **1. Clone the repo**
-```bash
-git clone https://github.com/<your-username>/Budget-er.git
-cd Budget-er
+### 🏠 Dashboard  
+![Dashboard](assets/dashboard.png)
+
+### 💵 Expense Manager  
+![Expenses](assets/expenses.png)
+
+### 🗂️ Category Manager  
+![Categories](assets/categories.png)
+
+### 📊 Charts Window  
+![Charts](assets/charts.png)
+
+---
+
+## 🚀 Installation
+
+### **Option 1 — Run from Source**
+1. Install Python 3.11+
+2. Install required packages:
+   ```bash
+   pip install matplotlib
