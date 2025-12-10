@@ -1,71 +1,61 @@
-📘 Budget-er — Personal Budgeting & Expense Manager (Python + Tkinter)
+# 💰 Budget-er  
+A modern, lightweight personal budgeting app built with Python and Tkinter.
 
-A clean, modern budgeting application built with Python, SQLite, and Tkinter.
-Designed as a real, portfolio-ready desktop app that helps users:
+Budget-er helps you track income, expenses, spending categories, savings progress, and visualizes your financial habits with interactive charts. Designed to be simple, fast, and beginner-friendly — while still looking clean and professional.
 
-- Track income, savings, and cash flow
+---
 
-- Log and manage expenses
+## 📸 Screenshots  
+> *(Add your screenshots into a `/screenshots` folder and update image paths)*
 
-- Organize categories
+| Dashboard | Expense Manager | Charts |
+|----------|-----------------|--------|
+| ![Dashboard](screenshots/dashboard.png) | ![Expenses](screenshots/expenses.png) | ![Charts](screenshots/charts.png) |
 
-- Import/export CSV data
+---
 
-- Visualize spending through charts
+## 🚀 Features
 
-- Toggle light/dark mode
+### **Core**
+- Add, edit, and delete expenses  
+- Category manager with collapsible panel  
+- Automatic monthly spending totals  
+- Weekly allowance calculator  
+- Overspending warnings  
+- Red negative-cash alerts  
+- CSV import/export  
+- Persistent data storage (SQLite)
 
-- Use a polished, scrollable UI
+### **UI / UX**
+- Clean, modern layout  
+- Dark & light theme toggle  
+- Header with app branding  
+- Scrollable expense window  
+- Consistent styling across all windows
 
-Budget-er was built with clean structure, modular code, and a professional UI — perfect for showcasing Python GUI development skills.
+### **Charts**
+- Pie chart of expense distribution  
+- Bar chart of total spending by category  
+- Auto-updates after new expenses are added  
+- Dark-theme compatible
 
-🚀 Features
-✔ Modern Tkinter UI
+---
 
-- Header bar branding
+## 🛠 Technologies Used
 
-- Responsive layout
+| Component | Tech |
+|----------|------|
+| GUI | Tkinter |
+| Charts | Matplotlib |
+| Database | SQLite3 |
+| Language | Python 3 |
+| Packaging (optional) | PyInstaller |
 
-- Scrollable expense manager
+---
 
-- Light & Dark themes
+## 📦 Installation
 
-✔ Expense Management
-
-- Add expenses
-
-- Delete expenses
-
-- View total expense summary
-
-- Organize categories
-
-- Expandable category panel
-
-✔ Data Handling
-
-- SQLite backend (no external setup needed)
-
-- CSV import/export for expenses
-
-- Automatic date tracking
-
-- Robust error handling
-
-✔ Budget Summary
-
-- Remaining balance
-
-- Savings percentage
-
-- Weekly allowance
-
-- Overspending/negative cash alerts
-
-✔ Charts & Visualization
-
-- Pie chart for category distribution
-
-- Bar chart for spending totals
-
-- Dark mode compatible visuals
+### **1. Clone the repo**
+```bash
+git clone https://github.com/<your-username>/Budget-er.git
+cd Budget-er
